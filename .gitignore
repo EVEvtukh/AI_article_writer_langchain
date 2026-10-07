@@ -1,0 +1,39 @@
+# --- Секреты и локальная конфигурация ---
+.env
+.env.local
+*.key
+secrets.json
+
+# --- Виртуальное окружение ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Артефакты Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Кэш и отчёты инструментов ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Результаты работы цепочки (файл .gitkeep остаётся в репозитории) ---
+output/*
+!output/.gitkeep
+
+# --- Среда / редакторы ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
